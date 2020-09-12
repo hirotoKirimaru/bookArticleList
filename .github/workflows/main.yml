@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   FrontDeploy:
-    name: FrontDeploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repo
